@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0">
+    <defs> 
+        <linearGradient id="gm" gradientTransform="scale(0.4, 1)" spreadMethod="repeat">
+            <stop stop-color="#ff2525" offset="0"/>
+            <stop stop-color="#ff2525" offset="0.5"/>
+            <stop stop-color="#ffffff" offset="0.5"/>
+            <stop stop-color="#ffffff" offset="1"/>
+        </linearGradient>
+        <linearGradient id="gm2" href="#gm" gradientTransform="rotate(45) scale(0.44, 1)"/>
+        <linearGradient id="gm3" href="#gm" gradientTransform="rotate(114) scale(0.44, 1)"/>
+
+        <path id="mid" d="m 0,10.36 v 14.65 h 14.42 l 2,-3.46 -11.2,-11.2 z m 41.91,0 -4.9,8.41 6.17,6.17 h 6.82 v -14.65 z"/>
+        <path id="left" d="m 16.87,0 -10.36,10.36 10.37,10.37 7.58,-13.14 z m 19.66,19.66 -7.58,13.14 9.94,9.94 10.36,-10.36 z"/>
+        <path id="right" d="m 40.85,10.36 -22.89,39.65 -12.69,-7.33 22.89,-39.65 z"/>
+
+        <g id="belt">
+            <use href="#mid"/>
+            <use href="#left"/>
+            <use href="#right"/>
+        </g>
+    </defs>
+
+    <view id="white" viewBox="0 0 50 50"/>
+    <use x="0" y="0" href="#belt" fill="#ffffff"/>
+
+    <view id="yellow" viewBox="0 50 50 50"/>
+    <use x="0" y="50" href="#belt" fill="#e2b201"/>
+
+    <view id="orange" viewBox="0 100 50 50"/>
+    <use x="0" y="100" href="#belt" fill="#e45602"/>
+
+    <view id="green" viewBox="0 150 50 50"/>
+    <use x="0" y="150" href="#belt" fill="#01602a"/>
+
+    <view id="blue" viewBox="0 200 50 50"/>
+    <use x="0" y="200" href="#belt" fill="#014685"/>
+
+    <view id="brown" viewBox="0 250 50 50"/>
+    <use x="0" y="250" href="#belt" fill="#784425"/>
+
+    <view id="black" viewBox="0 300 50 50"/>
+    <use x="0" y="300" href="#belt" fill="#000000"/>
+
+    <view id="coral" viewBox="0 350 50 50"/>
+    <use x="0" y="350" href="#mid" fill="url(#gm)"/>
+    <use x="0" y="350" href="#left" fill="url(#gm2)"/>
+    <use x="0" y="350" href="#right" fill="url(#gm3)"/>
+
+    <view id="red" viewBox="0 400 50 50"/>
+    <use x="0" y="400" href="#belt" fill="#ff2525"/>
+</svg>

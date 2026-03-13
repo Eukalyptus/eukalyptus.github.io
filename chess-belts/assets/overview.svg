@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 22">
+    <style>
+        text {
+            fill: #fff;
+            font-size: 1.75px;
+            text-anchor: middle;
+            text-shadow: 0 0 2px black;
+        }
+
+        .gm {
+            fill: #000;
+        }
+
+        .magnify {
+            fill: #ccc;
+        }
+    </style>
+
+    <defs>
+        <linearGradient id="full">
+            <stop stop-color="#ffffff" offset="0"/>
+            <stop stop-color="#e2b201" offset="0.45"/>
+            <stop stop-color="#e45602" offset="0.897"/>
+            <stop stop-color="#01602a" offset="0.93"/>
+            <stop stop-color="#014685" offset="0.969"/>
+            <stop stop-color="#784425" offset="0.993"/>
+            <stop stop-color="#000000" offset="1"/>
+        </linearGradient>
+        
+        <linearGradient id="fide">
+            <stop stop-color="#01602a" offset="0.139"/>
+            <stop stop-color="#014685" offset="0.633"/>
+            <stop stop-color="#784425" offset="0.933"/>
+            <stop stop-color="#000000" offset="1"/>
+        </linearGradient>
+        
+        <linearGradient id="gm" gradientTransform="rotate(90)">
+            <stop stop-color="#ffffff" offset="0.134"/>
+            <stop stop-color="#ff2525" offset="0.134"/>
+            <stop stop-color="#ff2525" offset="0.433"/>
+            <stop stop-color="#ffffff" offset="0.433"/>
+            <stop stop-color="#ffffff" offset="0.567"/>
+            <stop stop-color="#ff2525" offset="0.567"/>
+            <stop stop-color="#ff2525" offset="0.867"/>
+            <stop stop-color="#ffffff" offset="0.867"/>
+        </linearGradient>
+        
+        <linearGradient id="titled">
+            <stop stop-color="#784425" offset="0"/>
+            <stop stop-color="#000000" offset="0.25"/>
+        </linearGradient>
+    </defs>
+
+    <rect width="100" height="4" x="0" y="0" fill="url(#full)"/>
+    <text x="50" y="2.5">10m daily online players</text>
+    
+    <path d="M 92,4.25 v 0.5 h 3.875 v 0.5 h -95.875 v 0.5 h 0.25 v -0.25 h 99.5 v 0.25 h 0.25 v -0.5 h -3.875 v -0.5 h 3.875 v -0.5 h -0.25 v 0.25 h -7.5 v -0.25 z" class="magnify"/>
+
+    <rect width="99.5" height="4" x="0" y="6" fill="url(#fide)"/>
+    <rect width="0.475" height="4" x="99.5" y="6" fill="url(#gm)"/>
+    <rect width="0.025" height="4" x="99.975" y="6" fill="#ff2525"/>
+    <text x="50" y="8.5">200k FIDE Standard rated</text>
+
+    <path d="M 94,10.25 v 0.5 h 2.875 v 0.5 h -96.875 v 0.5 h 0.25 v -0.25 h 99.5 v 0.25 h 0.25 v -0.5 h -2.875 v -0.5 h 2.875 v -0.5 l -0.25,0 v 0.25 h -5.5 v -0.25 z" class="magnify"/>
+
+    <rect width="90.8" height="4" x="0" y="12" fill="url(#titled)"/>
+    <rect width="8.9" height="4" x="90.8" y="12" fill="url(#gm)"/>
+    <rect width="0.3" height="4" x="99.7" y="12" fill="#ff2525"/>
+    <text x="50" y="14.5">12.5k titled players</text>
+
+    <path d="M 90.8,16.25 v 0.5 h 4.475 v 0.5 h -95.275 v 0.5 h 0.25 v -0.25 h 99.5 v 0.25 h 0.25 v -0.5 h -4.475 v -0.5 h 4.475 v -0.5 l -0.25,0 v 0.25 h -8.7 v -0.25 z" class="magnify"/>
+    
+    <rect width="96" height="4" x="0" y="18" fill="url(#gm)"/>
+    <rect width="4" height="4" x="96" y="18" fill="#ff2525"/>
+    <text x="50" y="20.5" class="gm">1000 Grand Masters</text>
+</svg>
