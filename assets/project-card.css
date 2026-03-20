@@ -1,4 +1,7 @@
 .project-card {
+    --card-bg-mix: color-mix(var(--black-94) 20%, var(--project-accent));
+    border-radius: .75em;
+    box-sizing: border-box;
     display: grid;
     gap: .5em .5em;
     grid-template-columns: repeat(3, 1fr);
@@ -8,12 +11,15 @@
 }
 
 .project-card:hover {
-    background: rgba(255,255,191,.05);
-    box-shadow: 0 0 2vw 1.5vw rgba(255,255,191,.05);
+    background: var(--card-bg-mix);
+    box-shadow: 0 0 0 1em var(--card-bg-mix);
+}
+
+.project-card:not(#eukalyptus):hover .project-thumb {
+    visibility: hidden;
 }
 
 .project-card:hover .project-desc {
-    background: #1c1c19;
     visibility: visible;
 }
 
@@ -34,12 +40,10 @@ a img, a span {
 }
 
 .project-title {
-    --ts-blur: 2px;
-    border-radius: .75em;
+    align-content: end;
     color: white;
     font-size: 1.5em;
     grid-column: 1/4;
-    padding-left: .625em;
     text-align: center;
 }
 
@@ -65,7 +69,7 @@ a img, a span {
     overflow-y: auto;
     padding: .75em;
     visibility: hidden;
-    z-index: 99;
+    z-index: 98;
 }
 
 .ref {
@@ -79,14 +83,13 @@ a img, a span {
 }
 
 .info-ref > span {
-    border: 2px solid;
+    border: 3px solid;
     border-radius: 50%;
     box-sizing: border-box;
     color: black;
     display: inline-block;
     height: 1.5em;
     font-variant: normal;
-    font-weight: normal;
     text-align: center;
     width: 1.5em;
 }

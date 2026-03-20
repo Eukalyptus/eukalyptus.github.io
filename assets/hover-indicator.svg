@@ -1,15 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 32">
-    <rect
-       fill="#80c080"
-       width="60"
-       height="28"
-       x="2"
-       y="2"
-       rx="4"
-       ry="4" />
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
     <path
        fill="#fff"
        stroke="#000"
        style="filter:drop-shadow(-1px 3px 1px rgba(0,0,0,.8))"
-       d="m 27,10 4,16 4,-8 8,-4 z" />
+       d="m 4,4 4,16 4,-8 8,-4 z" />
 </svg>
