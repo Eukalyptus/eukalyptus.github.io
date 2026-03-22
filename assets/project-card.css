@@ -115,3 +115,8 @@ a img, a span {
     --project-accent: #ff4040;
     --project-bg: #f0f0f0 url('/anlaute/assets/bg.svg') repeat center/1.5em;
 }
+
+#edoku {
+    --project-accent: #405060;
+    --project-bg: #f0f0e0;
+}

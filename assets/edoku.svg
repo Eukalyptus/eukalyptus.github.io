@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200">
+    <style>
+        text {
+            font-family: Roboto;
+            font-size: 40px;
+            text-align: center;
+            text-anchor: middle;
+        }
+
+        line {
+            stroke: #333;
+            stroke-width: 5;
+        }
+
+        .minor {
+            stroke: #444;
+            stroke-width: 2;
+        }
+    </style>
+
+    <text x="200" y="110">🦦</text>
+    <text x="146" y="60">⚽</text>
+    <text x="308" y="168">⚽</text>
+    <text x="38" y="168">🎀</text>
+    <text x="38" y="105">🐅</text>
+    <text x="362" y="60">🎀</text>
+
+    <line
+        x1="0" y1="19"
+        x2="400" y2="19" />
+
+    <line
+        x1="0" y1="181"
+        x2="400" y2="181" />
+
+    <line class="minor"
+        x1="11" y1="0"
+        x2="11" y2="200" />
+
+    <line class="minor"
+        x1="65" y1="0"
+        x2="65" y2="200" />
+
+    <line
+        x1="119" y1="0"
+        x2="119" y2="200" />
+
+    <line class="minor"
+        x1="173" y1="0"
+        x2="173" y2="200" />
+
+    <line class="minor"
+        x1="227" y1="0"
+        x2="227" y2="200" />
+    
+    <line
+        x1="281" y1="0"
+        x2="281" y2="200" />
+
+    <line class="minor"
+        x1="335" y1="0"
+        x2="335" y2="200" />
+
+    <line class="minor"
+        x1="389" y1="0"
+        x2="389" y2="200" />
+
+    <line class="minor"
+        x1="0" y1="73"
+        x2="400" y2="73" />
+
+    <line class="minor"
+        x1="0" y1="127"
+        x2="400" y2="127" />
+</svg>
